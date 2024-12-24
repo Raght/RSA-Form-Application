@@ -1,0 +1,15 @@
+﻿<Window x:Class="RSA.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RSA"
+        mc:Ignorable="d"
+        Title="InfoWindow" Height="248" Width="259">
+    <Grid>
+        <Label Name="Label" Content="Label" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="InfoTextBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Info" VerticalAlignment="Top" Width="223" Height="131" Margin="10,36,0,0"/>
+        <Button Name="ButtonCopyToClipboard" Content="Скопировать" HorizontalAlignment="Left" Margin="10,177,0,0" VerticalAlignment="Top" Click="ButtonCopyToClipboard_Click"/>
+
+    </Grid>
+</Window>
